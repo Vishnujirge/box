@@ -1,0 +1,47 @@
+
+[class^='box']{
+      /* border: 2px solid lime; */
+      border-radius: 100px;
+     width: 300px;
+     height: 150px;
+     background-color: rgba(0, 0, 0, 0.5); 
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 2px solid red;
+        color: red;
+
+  
+    }
+
+
+[id ^='btn']{
+    padding: 15px;
+    color: red;
+      /* border: 2px solid lime; */
+      border: 2px solid red;
+      border-radius: 40px;
+    text-align: center;
+    margin-left: 125px ;
+     background-color: rgba(0, 0, 0, 0.5);
+
+
+}
+.box1 , .b{
+      border: 2px solid lime;
+     color: lime;
+}
+
+
+body {
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(3deg, rgba(2, 255, 2, 0.825), black);
+  
+}
+
+
+div button{
+    display: inline-block;
+}
